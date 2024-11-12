@@ -40,7 +40,7 @@ public class CompanyStocks {
 	}
 	
 	static Profile getProfile(String ticker) throws IOException {
-		String apiKey = "cnt3ra1r01qi1jjgmfb0cnt3ra1r01qi1jjgmfbg";
+		String apiKey = "";
         String endpoint = "https://finnhub.io/api/v1/stock/profile2?symbol=" + ticker + "&token=" + apiKey;
         URL url = new URL(endpoint);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();

@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class DBConnector {
     // You can adjust these constants according to your project needs
-    private static final String URL = "jdbc:mysql://localhost:3306/assignment4";
-    private static final String USER = "root";
-    private static final String PASSWORD = "Bedi1007";
+    private static final String URL = "";
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     public static Connection connect() throws SQLException {
         try {
